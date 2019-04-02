@@ -7,7 +7,7 @@ Vehicle ReID is a pytorch-based baseline for training and evaluating deep vehicl
 1. cd to your preferred directory and run git clone https://github.com/Jakel21/vehicle-ReID.
 2. Install dependencies by pip install -r requirements.txt (if necessary).
 ## Datasets
-+ [veri](https://github.com/VehicleReId/VeRidataset)
++ [veri776](https://github.com/VehicleReId/VeRidataset)
 + [vehicleID](https://pkuml.org/resources/pku-vehicleid.html)
 
 The keys to use these datasets are enclosed in the parentheses. See vehiclereid/datasets/__init__.py for details.Both two datasets need to pull request to the supplier.
@@ -57,7 +57,9 @@ python train_imgreid_xent.py \
 ```
 
 ## Results
-### veri
+Some test results on veri776 and vehicleID:
+
+### veri776
 model:resnet50 
 
 loss: xent+htri
