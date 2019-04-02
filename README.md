@@ -4,7 +4,7 @@ Vehicle ReID is a pytorch-based baseline for training and evaluating deep vehicl
 ## Updates
 2019.3.11 update the basic baseline code
 ## Installation
-1. cd to your preferred directory and run git clone https://github.com/Jakel21/vehicl-ReID.
+1. cd to your preferred directory and run git clone https://github.com/Jakel21/vehicle-ReID.
 2. Install dependencies by pip install -r requirements.txt (if necessary).
 ## Datasets
 + [veri](https://github.com/VehicleReId/VeRidataset)
