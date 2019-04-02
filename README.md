@@ -66,7 +66,7 @@ loss: xent+htri
 
 | mAP | rank-1 | rank-5 | rank-20 |
 |:---:| :----: | :----: | :-----: |
-|59|87.6|94.3|98.2|
+|59.0|87.6|94.3|98.2|
 
 ### vehicleID
 model:resnet50 
