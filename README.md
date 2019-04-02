@@ -2,6 +2,7 @@
 ## Introduction
 Vehicle ReID baseline is a pytorch-based baseline for training and evaluating deep vehicle re-identification models on reid benchmarks.
 ## Updates
+2019.4.1  update some test results
 2019.3.11 update the basic baseline code
 ## Installation
 1. cd to your preferred directory and run git clone https://github.com/Jakel21/vehicle-ReID.
