@@ -59,6 +59,7 @@ python train_imgreid_xent.py \
 ## Results
 ### veri
 model:resnet50 
+
 loss: xent+htri
 
 | mAP | rank-1 | rank-5 | rank-20 |
@@ -67,6 +68,7 @@ loss: xent+htri
 
 ### vehicleID
 model:resnet50 
+
 loss: xent+htri
 
 | testset size | mAP | rank-1 | rank-5 | rank-20 |
