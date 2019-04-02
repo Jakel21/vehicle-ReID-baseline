@@ -64,6 +64,7 @@ python train_imgreid_xent.py \
 
 ### vehicleID
 resnet50+xent+htri:
+
 | testset-size | mAP | rank-1 | rank-5 | rank-20 |
 | :----------- |:---:| :----: | :----: | :-----: |
 |800|76.4|69.1|85.8|94.5|
