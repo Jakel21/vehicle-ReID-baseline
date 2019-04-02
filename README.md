@@ -61,7 +61,8 @@ python train_imgreid_xent.py \
 |model| loss | mAP | rank-1 | rank-5 | rank-20 |
 | :---| :--- |:---:| :----: | :----: | :-----: |
 |resnet50|xent+htri|59|87.6|94.3|98.2|
-###vehicleID
+
+### vehicleID
 resnet50+xent+htri:
 |testset size| mAP | rank-1 | rank-5 | rank-20 |
 | :--------- |:---:| :----: | :----: | :-----: |
