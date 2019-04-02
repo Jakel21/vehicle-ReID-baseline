@@ -55,3 +55,8 @@ python train_imgreid_xent.py \
 --save-dir log/eval-veri-to-vehicleID \
 --gpu-devices 0 \
 ```
+
+## Results
+### veri
+|model|loss|mAP|rank-1|rank-5|rank-20|
+|resnet50|xent+htri|59|87.6|94.3|98.2|
