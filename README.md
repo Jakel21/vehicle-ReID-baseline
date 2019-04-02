@@ -1,6 +1,6 @@
-# vehicle-ReID
+# vehicle-ReID-baseline
 ## Introduction
-Vehicle ReID is a pytorch-based baseline for training and evaluating deep vehicle re-identification models on reid benchmarks.
+Vehicle ReID baseline is a pytorch-based baseline for training and evaluating deep vehicle re-identification models on reid benchmarks.
 ## Updates
 2019.3.11 update the basic baseline code
 ## Installation
