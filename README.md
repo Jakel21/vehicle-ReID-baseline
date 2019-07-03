@@ -19,7 +19,7 @@ The keys to use these datasets are enclosed in the parentheses. See vehiclereid/
 ## Losses
 + cross entropy loss
 + triplet loss
-+ mmd loss
+
 ## Tutorial
 ### train
 Input arguments for the training scripts are unified in [args.py](./args.py).
