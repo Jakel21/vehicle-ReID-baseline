@@ -123,6 +123,6 @@ def eval_veri(distmat, q_pids, g_pids, q_camids, g_camids, max_rank):
     return all_cmc, mAP
 
 
-def evaluate(distmat, q_pids, g_pids, q_camids, g_camids, max_rank=50, ):
+def evaluate(distmat, q_pids, g_pids, q_camids, g_camids, max_rank=50):
     return eval_veri(distmat, q_pids, g_pids, q_camids, g_camids, max_rank)
 
