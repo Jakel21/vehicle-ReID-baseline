@@ -246,7 +246,8 @@ def test(model, queryloader, galleryloader, use_gpu, ranks=[1, 5, 10, 20], retur
     distmat = distmat.numpy()
 
     print('Computing CMC and mAP')
-    cmc, mAP = evaluate(distmat, q_pids, g_pids, q_camids, g_camids, args.target_names)
+    # cmc, mAP = evaluate(distmat, q_pids, g_pids, q_camids, g_camids, args.target_names)
+    cmc, mAP = evaluate(distmat, q_pids, g_pids, q_camids, g_camids)
 
     print('Results ----------')
     print('mAP: {:.1%}'.format(mAP))
